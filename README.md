@@ -5,20 +5,26 @@ Indigo uses the industry standard (DBT package)[https://docs.getdbt.com/docs/int
 
 This template and the steps below are all you need to get your model on the marketplace and generate revenue.
 
-### Pre-development: 
+
+### Pre-development 
 To gain access to the Indigo dev environment for testing, you need data warehouse credentials. Please reach out to ahessert@gmail.com or `@rooo#8135` on discord.
 
+
 ### Using this template
-1. Fork and rename this repository.
+1. Clone and rename this repository `git clone https://github.com/ahessert/indigo_developer_template.git <your_repo_name>`
 2. *Edit* `dbt_project.yml`
   a. Replace <repository_name> with your new name.
   b. Replace <author_name> with your username used to access the Indigo developer node.
-3. Write your model using SQL in `./models/sample_model.sql`, and rename the file (this will the name used on the Indigo marketplace)
+3. Write your model using SQL in `./models/sample_model.sql`, and rename the file (this will be the name used on the Indigo marketplace)
 4. *Edit* `./models/schema.yml`
-  a. Replace <sample_model> with your model matching the name of your SQL file.
-  
+  a. Replace <sample_model> with your model _matching the name of your SQL file_.
+5. Commit changes to your own repository.
+
 
 ### Running your model
 `dbt build <model_name>`
 
+
 ### Minting your model NFT
+Copy your https clone url and mint your model at app.indigodapp.com/developer 
+* The model name you provide must match the name of your sql file (without the .sql extension)
