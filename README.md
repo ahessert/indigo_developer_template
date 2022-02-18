@@ -1,7 +1,7 @@
 # Indigo Developer Template
 This is a template for Indigo developers to create and own their web3 SQL models and license them to daily users on the Indigo marketplace.
 
-Indigo uses the industry standard (DBT package)[https://docs.getdbt.com/docs/introduction] and SQL to make it faster and easier for Data Scientists and Analysts to create data models without the heavy lifting of running their own infrastructure. The public Indigo Data Nodes require dbt compliant file structure and config to  compile and buidl the thousands data models owned by the developer community. 
+Indigo uses the industry standard DBT package (https://docs.getdbt.com/docs/introduction) and SQL to make it faster and easier for Data Scientists and Analysts to create data models without the heavy lifting of running their own infrastructure. The public Indigo Data Nodes require dbt compliant file structure and config to  compile and buidl the thousands data models owned by the developer community. 
 
 This template and the steps below are all you need to get your model on the marketplace and generate revenue.
 
@@ -26,5 +26,6 @@ To gain access to the Indigo dev environment for testing, you need data warehous
 
 
 ### Minting your model NFT
-Copy your https clone url and mint your model at app.indigodapp.com/developer 
-* The model name you provide must match the name of your sql file (without the .sql extension)
+Copy your https clone url and mint your model at www.app.indigodapp.com/developer 
+
+*The model name you provide must match the name of your sql file (without the .sql extension)
