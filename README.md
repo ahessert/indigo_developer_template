@@ -13,11 +13,11 @@ To gain access to the Indigo dev environment for testing, you need data warehous
 ### Using this template
 1. Clone and rename this repository `git clone https://github.com/ahessert/indigo_developer_template.git <your_repo_name>`
 2. *Edit* `dbt_project.yml`
-  a. Replace <repository_name> with your new name.
-  b. Replace <author_name> with your username used to access the Indigo developer node.
+   - Replace <repository_name> with your new name.
+   - Replace <author_name> with your username used to access the Indigo developer node.
 3. Write your model using SQL in `./models/sample_model.sql`, and rename the file (this will be the name used on the Indigo marketplace)
 4. *Edit* `./models/schema.yml`
-  a. Replace <sample_model> with your model _matching the name of your SQL file_.
+   - Replace <sample_model> with your model _matching the name of your SQL file_.
 5. Commit changes to your own repository.
 
 
